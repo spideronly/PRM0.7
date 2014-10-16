@@ -1,0 +1,6 @@
+IF (OBJECT_ID('tUser_log') IS NOT NULL)
+BEGIN
+   drop table  tUser_log
+END
+
+select *  into tUser_log from tUser where 1=2

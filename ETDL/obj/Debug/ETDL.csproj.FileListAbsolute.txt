@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\PRM0.6\ETDL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\PRM0.6\ETDL\bin\Debug\ETDL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\PRM0.6\ETDL\bin\Debug\ETDL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\PRM0.6\ETDL\obj\Debug\ETDL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\PRM0.6\ETDL\obj\Debug\ETDL.pdb

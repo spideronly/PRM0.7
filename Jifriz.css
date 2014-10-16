@@ -1,0 +1,20 @@
+#JifrizCopyright
+{
+    margin-top:33px;	
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    height:33px;
+    width:100%;
+    z-index:9999;
+    display:block;
+   
+    
+    border-width: 2px;
+   
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+    color:#dadada;
+    font-size:120%;
+}

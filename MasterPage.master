@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+     <link type="text/css" rel="stylesheet" rev="stylesheet" href="Jifriz.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+       
+  
+        .style6 {
+	background-image: url('images2/hedar2.png');
+}
+    .style7 {
+	text-align: center;
+}
+        .style8
+        {
+            width: 90px;
+        }
+        .style10
+        {
+            text-align: center;
+            width: 131px;
+        }
+        .style11
+        {
+            text-align: center;
+            width: 102px;
+        }
+        .style12
+        {
+            width: 144px;
+        }
+        .style13
+        {
+            width: 279px;
+        }
+        .style14
+        {
+            text-align: center;
+            width: 84px;
+        }
+    </style>
+</head>
+<body style="margin: 0; background-image: url('images2/brag.jpg'); background-attachment: fixed;" bgcolor="#005B99">
+    <form id="form1" runat="server" dir="rtl">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    <table style="width: 900px; height: 100%;" align="center">
+		<tr>
+			<td align="left">
+			 <div id="IDBasic" style="background-image: url('images2/hedar.png')">
+                                <div id="divEmpImage" runat="server" style="height: 129px; width: 126px;">
+                                    <%--<img src="GetEmpImage.aspx" alt="..." height="170px" width="150px" />--%>
+                                </div>
+                            </div>
+			
+			</td>
+		</tr>
+        
+		<tr>
+			<td valign="top" >
+			<div id="myDiv" runat="server">
+               
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0" dir="ltr" align="center" style="width: 825px">
+	<tr>
+		<td style="width: 900px" class="style6">
+			
+			<table style="width: 90%" align="center">
+				<tr>
+					<td class="style8">
+					<asp:ImageButton runat="server" id="BtnLogOut" ImageUrl="images2/Eixt.png" 
+                            onclick="BtnLogOut_Click" />
+					</td>
+					<td class="style13" align="center">
+              
+                    &nbsp;
+              
+                    <asp:Label ID="lblName" runat="server" Font-Bold="True" 
+                     Font-Underline="False" ForeColor="#CCFFBB"  ></asp:Label>
+                        </td>
+                        <td class="style14">
+                        <asp:LinkButton ID="BtnReport" runat="server" Font-Bold="True" 
+                            Font-Underline="False" ForeColor="White" onclick="BtnReport_Click" >التقارير</asp:LinkButton>
+                        </td>
+					<td align="center" class="style12">
+                        <asp:LinkButton ID="LBDepartment" runat="server" Font-Bold="True" 
+                            Font-Underline="False" ForeColor="White" onclick="LinkButton1_Click">الإدارت 
+                        والأقسام</asp:LinkButton>
+                        </td>
+                        
+					<td class="style11">
+                        <asp:LinkButton ID="LBPermission" runat="server" Font-Bold="True" 
+                            Font-Underline="False" ForeColor="White" onclick="LBPermission_Click">الصلاحيات</asp:LinkButton>
+                        </td>
+                        
+					<td class="style10">
+                        <asp:LinkButton ID="LBAddnew" runat="server" Font-Bold="True" 
+                            Font-Underline="False" ForeColor="White" onclick="LBAddnew_Click">اضافة جديد</asp:LinkButton>
+                        </td>
+					<td class="style7" style="width: 100px">
+                        <asp:LinkButton ID="LBHome" runat="server" Font-Bold="True" 
+                            Font-Underline="False" ForeColor="White" onclick="LBHome_Click">الرئيسية</asp:LinkButton>
+                        </td>
+				</tr>
+			</table>
+			  
+		</td>
+	</tr>
+</table>
+		</div>	
+		</td>
+		</tr>
+		
+		<tr>
+			<td style="height: 100%; font-family: tahoma; font-size: 10px; font-weight: bold;" valign="top">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        
+        
+        </asp:ContentPlaceHolder>
+    		</td>
+		</tr>
+		
+	</table>
+    <div style="height:33px" />
+<div id="JifrizCopyright" >
+     <img src="images2/Project_logn_15.png" width="900" height="42" alt="">  
+</div>
+  
+    
+    </form>
+</body>
+</html>
